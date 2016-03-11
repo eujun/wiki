@@ -18,7 +18,7 @@ node app.js
 
 Database already contains a few wiki pages and users admin, bobby, chris, with passwords mirroring each own usernames.
 #add wiki page
-Link to add wiki is provided in main page where authenticated users can input title and content. Only admins can delete wiki pages. Created wiki page will have a talk page where authenticated users can add discussions.
+Link to add wiki is provided in main page where authenticated users can input title and content. Authenticated users can edit wiki title and content, only admins can delete wiki pages. Created wiki page will have a talk page where authenticated users can add discussions.
 #login
 Users can login with matching username and password or create new accounts
 #user list
