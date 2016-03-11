@@ -12,9 +12,8 @@ npm install passport --save
 npm install passport-local --save
 # install sqlite3
 npm install sqlite3 --save
-#run seeds.js to generate database
-node database/seeds.js
 
-By default, users admin, bobby, chris, are created with passwords mirroring each users' usernames
 #run app.js to start server on localhost
 node app.js
+
+Database already contains a few wiki pages and users admin, bobby, chris, with passwords mirroring each users' usernames.
