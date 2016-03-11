@@ -1,5 +1,3 @@
-# install the bin script
-npm install -g readme-docs
- 
-# view help if needed
-readme-docs --help
+# install the cilent-sessions
+npm install cilent-sessions --save
+npm
