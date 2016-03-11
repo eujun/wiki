@@ -17,3 +17,6 @@ npm install sqlite3 --save
 node app.js
 
 Database already contains a few wiki pages and users admin, bobby, chris, with passwords mirroring each users' usernames.
+#add wiki page
+link to add wiki is provided in main page where authenticated users can input title and content. Only admins can delete wiki pages.
+#login
