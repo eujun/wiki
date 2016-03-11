@@ -12,3 +12,5 @@ npm install passport --save
 npm install passport-local --save
 # install sqlite3
 npm install sqlite3 --save
+#run seeds.js to generate database
+node database/seeds.js
