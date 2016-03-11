@@ -20,6 +20,6 @@ Database already contains a few wiki pages and users admin, bobby, chris, with p
 #add wiki page
 Link to add wiki is provided in main page where authenticated users can input title and content. Authenticated users can edit wiki title and content, only admins can delete wiki pages. Created wiki page will have a talk page where authenticated users can add discussions.
 #login
-Users can login with matching username and password or create new accounts
+Users can login with matching username and password or create new accounts.
 #user list
 Only admins have access to user list. Only Main Admin can grant or remove admin privilege to users. Assigned Admin (AA) can ban regular users but not other admins. To ban an AA, Main Admin have to remove admin privilege of said user then only a ban is possible.
