@@ -1,0 +1,12 @@
+<%- include('../layout/header', {title: equipment.name, user: user}) %>
+<div class="left">
+  <a href="/wiki">Index</a> <a href="/wiki/<%= equipment.id %>/talk">Talk page</a>
+</div>
+<h1><%= equipment.name %></h1>
+<div style="white-space: pre-wrap;">
+  <%= equipment.description %>
+</div>
+
+<div class="left">
+  <p> <a href="/wiki/<%= equipment.id %>/edit">Edit</a>
+</div>

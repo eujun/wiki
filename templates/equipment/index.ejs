@@ -1,0 +1,13 @@
+<%- include('../layout/header', {title: "Wiki Index", user: user}) %>
+<% title = "Wiki Index" %>
+<div class="right">
+  <a href="/userlist">User List</a>
+</div>
+<h1>List of Wiki Pages</h1>
+<ul>
+  <% equipment.forEach(function(equip) { %>
+    <%- include('_equipment', {equipment: equip}) %>
+  <% }); %>
+</ul>
+
+<a id = "link" href="/wiki/new">Add Wiki</a>

@@ -1,0 +1,15 @@
+<%- include('../layout/header', {title: "Edit Wiki", user: user}) %>
+<h1>Edit Wiki Page</h1>
+<form action="/wiki/<%= equipment.id %>" method="POST">
+  <p>
+    <label for="name">Wiki Title:</label>
+    <input name="name" type="text" value = "<%= equipment.name %>"/>
+  </p>
+  <p>
+    <label for="description">Content:</label>
+    <textarea rows="20" cols="100" name="description"><%= equipment.description %></textarea>
+  </p>
+  <p>
+    <input type="submit" value="Save" />
+  </p>
+</form>

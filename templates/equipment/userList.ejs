@@ -1,0 +1,17 @@
+<%- include('../layout/header', {title: "User List", user: user}) %>
+<% title = "User List" %>
+
+<h1>List of Users</h1>
+<div class="message">
+  <%= message %>
+</div>
+<table border="1" >
+  <tr><td>Username</td><td>Admin privillege</td><td>Ban option</td><td>Admin option</td></tr>
+    <% userI.forEach(function(use) { %>
+      <%- include('_userList', {userI: use}) %>
+    <% }); %>
+</table>
+
+<div class="left">
+  <a href="/wiki">Back to Index</a>
+</div>

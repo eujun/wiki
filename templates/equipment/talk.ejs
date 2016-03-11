@@ -1,0 +1,19 @@
+<%- include('../layout/header', {title: "Talk", user: user}) %>
+<h1>Talk:<%= equipment.name %></h1>
+<div class="left">
+  <a href="/wiki/<%= equipment.id %>">Back to Content page</a>
+</div>
+
+<div style="white-space: pre-wrap;">
+  <%= equipment.discussion %>
+</div>
+
+<form action="/wiki/<%=equipment.id%>/talk" method="POST">
+  <p>
+    <label for="discussion">Discussion:</label>
+    <textarea rows="8" cols="100" name="discussion"></textarea>
+  </p>
+  <p>
+    <input type="submit" value="Save" />
+  </p>
+</form>

@@ -1,0 +1,15 @@
+<%- include('../layout/header', {title: "Add Wiki", user: user}) %>
+<h1>Add New Wiki Page</h1>
+<form action="/wiki" method="POST">
+  <p>
+    <label for="name">Wiki Title:</label>
+    <input name="name" type="text" />
+  </p>
+  <p>
+    <label for="description">Content:</label>
+    <textarea rows="20" cols="100" name="description"></textarea>
+  </p>
+  <p>
+    <input type="submit" value="Save" />
+  </p>
+</form>

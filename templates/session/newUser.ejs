@@ -1,0 +1,18 @@
+<%- include('../layout/header', {title: "New User", user: user}) %>
+<h1>New User</h1>
+<div class="message">
+  <%= message %>
+</div>
+<form action="/user/new" method="POST" >
+  <label for="username">Username:
+    <input name="username" type="text" autocomplete="off">
+  </label>
+  <label for="password">Password:
+     <input name="password" type="password" autocomplete="off">
+  </label>
+  <label for="repassword">Reenter Password:
+     <input name="repassword" type="password" autocomplete="off">
+  </label>
+    <input type="submit" value="Create" />
+  </p>
+</form>
