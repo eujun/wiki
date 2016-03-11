@@ -16,3 +16,5 @@ npm install sqlite3 --save
 node database/seeds.js
 
 By default, users admin, bobby, chris, are created with passwords mirroring each users' usernames
+#run app.js to start server on localhost
+node app.js
