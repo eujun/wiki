@@ -15,4 +15,4 @@ npm install sqlite3 --save
 #run seeds.js to generate database
 node database/seeds.js
 
-By default, users admin, bobby, chris, are created will passwords mirroring each users' usernames
+By default, users admin, bobby, chris, are created with passwords mirroring each users' usernames
